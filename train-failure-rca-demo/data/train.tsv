@@ -1,0 +1,7 @@
+CUDA_OutOfMemory,OOM	2025-09-10 12:30:10 ERROR RuntimeError: CUDA out of memory. Tried to allocate 2.00 GiB
+CUDA_Driver_Mismatch	2025-09-10 12:31:00 ERROR CUDA driver version is insufficient for CUDA runtime version
+DataLoader_Stuck	2025-09-10 12:31:30 WARN DataLoader worker (pid 1234) is killed by signal: 9
+Disk_Full	2025-09-10 12:32:00 ERROR No space left on device when writing checkpoints
+Permission_Denied	2025-09-10 12:33:00 ERROR PermissionError: [Errno 13] Permission denied: '/data/train'
+Network_Timeout	2025-09-10 12:34:00 ERROR ReadTimeout connecting to S3 endpoint s3://bucket/dataset
+Model_Code_Error	2025-09-10 12:35:00 ERROR ValueError: dimension mismatch in forward()

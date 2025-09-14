@@ -1,0 +1,22 @@
+{
+  "labels": [
+    "OOM",
+    "CUDA_Driver_Mismatch",
+    "CUDA_OutOfMemory",
+    "DataLoader_Stuck",
+    "Disk_Full",
+    "Permission_Denied",
+    "Network_Timeout",
+    "Model_Code_Error"
+  ],
+  "actions": {
+    "OOM": "Increase memory / reduce batch size / enable gradient checkpointing",
+    "CUDA_Driver_Mismatch": "Align driver and CUDA toolkit versions; verify nvidia-smi vs torch.cuda details",
+    "CUDA_OutOfMemory": "Reduce batch size / use mixed precision / accumulate gradients",
+    "DataLoader_Stuck": "Check num_workers, deadlocks, dataset __getitem__, and worker timeouts",
+    "Disk_Full": "Clean cache/checkpoints; expand persistent volume; rotate logs",
+    "Permission_Denied": "Fix file/directory permissions; check container security context",
+    "Network_Timeout": "Validate data source endpoints; increase timeouts; add retries",
+    "Model_Code_Error": "Run unit tests; enable anomaly detection; inspect stacktrace"
+  }
+}

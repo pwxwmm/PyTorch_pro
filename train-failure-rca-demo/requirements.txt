@@ -1,0 +1,6 @@
+torch
+transformers
+datasets
+fastapi
+uvicorn
+scikit-learn

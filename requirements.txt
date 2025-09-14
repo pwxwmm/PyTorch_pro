@@ -1,0 +1,15 @@
+# Core ML
+torch
+numpy
+pandas
+
+# NLP
+transformers
+datasets
+
+# API
+fastapi
+uvicorn
+
+# Optional utilities
+matplotlib

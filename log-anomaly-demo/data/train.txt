@@ -1,0 +1,6 @@
+0	2025-09-10 12:30:01 INFO User login success uid=123
+0	2025-09-10 12:30:05 INFO Nginx request 200 OK
+0	2025-09-10 12:31:00 INFO Pod started successfully
+1	2025-09-10 12:30:10 ERROR Failed to allocate GPU memory
+1	2025-09-10 12:31:05 WARN Disk IO timeout node=172.20.191.185
+1	2025-09-10 12:32:00 CRITICAL Nginx worker crashed with exit code 137

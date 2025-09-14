@@ -1,0 +1,2 @@
+CUDA_OutOfMemory	2025-09-11 13:05:00 ERROR CUDA out of memory during backward()
+Model_Code_Error	2025-09-11 13:06:00 ERROR AssertionError: invalid tensor size in loss()
